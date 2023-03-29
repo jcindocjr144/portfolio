@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+html{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.name{
+    margin-left: 420px;
+    margin-top: -365;
+    font-family: sans-serif;
+}
+.description{
+    margin-left: 420px;
+    margin-top: -25px;
+}
+.intro{
+    margin-top: 50px;
+    margin-left: 420px;
+}
+.wholeintro{
+    margin-top: 30px;
+    margin-left: -45px;
+}
+.fb{
+    margin-top: 20px;
+    margin-left: 38px;
+}
+img{
+    clip-path: circle();
+    width: 350px;
+    margin-top: 120px;
+    margin-left: -535;
+}
+.content{
+    margin-top: 90px;
+}
+.Yearmain{
+    margin-left: 700px;
+    margin-top: -214px;
+}
+.school{
+    margin-left: 75px;
+}
+.year{
+    margin-left: 35px;
+}
+.Characterref{
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+.lines{
+    width: 800px;
+    position:inherit;
+}
+.wholecontent{
+    font-weight: 500;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(135deg, rgba(197, 193, 193, 0.507), rgba(250, 240, 240, 0.733));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border:1 solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(255, 254, 254, 0.781);
+}
+.wholesocials{
+    margin-left: 700px;
+}
+.socials{
+    font-family: sans-serif;
+    margin-left: 26px;
+}
+.contactcontent{
+    margin-top: -30px;
+}
+.wholecontact{
+    margin-top: 25px;
+}
+.contact{
+    margin-top: -75px;
+    font-family: sans-serif;
+}
+.label{
+    font-family: sans-serif;
+}
+.hr{
+    border-radius: 50px;
+}
+
+.menu-bar
+{
+  background:CYAN;
+  text-align: left;
+  border:3px solid black;
+  height: 80px;
+}
+.menu-bar ul
+{
+  display: inline-flex;
+  list-style: none;
+  color:GRAY;
+  margin-left:400px;
+}
+.menu-bar ul li 
+{
+  width: 120px;
+  margin:10px;
+  padding:15px;
+}
+.menu-bar ul li a
+{
+  text-decoration: none;
+  color:BLACK;
+
+}
+.menu-bar ul li :hover
+{
+  background:YELLOW;
+  border-radius: 3px;
+  width: 50px;
+  height: 30px;
+  color:CYAN;
+}
+
+.active ,.menu-bar ul li :hover
+{
+  background: linear-gradient(to bottom, #ff33cc 0%, #3399ff 100%);
+  border-radius:3px;
+  font-size: 20px;
+  font-family: monospace;
+  text-align: center;
+
+}
+.sub-menu-1{
+display: none;
+}
+.menu-bar ul li :hover .sub-menu-1
+{
+  display: block;
+  position: absolute;
+  background: GRAY;
+  margin-top: 80px;
+  margin-left:15px;
+}
+.list
+{
+  font-size: 20px;
+  font-family: monospace;
+}
+.list:hover
+{
+  background: linear-gradient(to bottom, #ff33cc 0%, #3399ff 100%);
+  border-radius:3px;
+  font-size: 20px;
+  font-family: monospace;
+  color:CYAN;
+}
+.dropbtn {
+  background: CYAN;
+  color: BLACK;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background: linear-gradient(to bottom, #ff33cc 0%, #3399ff 100%);
+  border-radius:3px;
+  color:CYAN;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: RED;
+  min-width: 280px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: monospace;
+  font-size: 20px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius:3px;
+}
+
+.dropdown-content a {
+  color:CYAN;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius:3px;
+}
+
+.dropdown a:hover 
+{
+  background-color: BLUE;
+  border-radius:3px;
+}
+
+.show 
+{
+  display: block;
+}
+.img2{
+  border: 1px solid yellow;
+  background: linear-gradient(90deg, rgba(2,40,36,1) 0%, rgba(2,0,36,1) 94%, rgba(2,0,36,1) 100%);
+  width: 50px;
+  height: 50px;
+  border-radius:150px;
+  margin-top:-165px;
+  left:1%;
+  position:absolute;
+}
+.img3{
+  border: 1px solid yellow;
+  background: linear-gradient(90deg, rgba(2,40,36,1) 0%, rgba(2,0,36,1) 94%, rgba(2,0,36,1) 100%);
+  width: 50px;
+  height: 50px;
+  border-radius:150px;
+  margin-top:-165px;
+  right:1%;
+  position:absolute;
+}
