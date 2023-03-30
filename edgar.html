@@ -11,7 +11,43 @@
 </head>
 
 <body>
+<div class="menu-bar">
+  <ul>
+    <li class="active py-2 d-none d-md-inline-block"><a href="index.html"><b>HOME</b></a></li>
+    <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn py-2 d-none d-md-inline-block"><b>ABOUT US</b></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="jerson.html">JERSON C. INDOC JR.</a>
+    <a href="edgar.html">EDGAR CLENT CUBELO JR.</a>
+  </div>
+</div>
 
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+    <li class="list py-2 d-none d-md-inline-block"><a href="tribute.html"><b>TRIBUTE</b></a></li>
+     <li class="con1 py-2 d-none d-md-inline-block py-2 d-none d-md-inline-block"><a href="contact.html"><b>CONTACTS</b></a></li>
+
+  </ul>
+  </div>
     <div class="wholecontent">
     <img src="images/edgar.png" alt="">
     <div class="wholeintro">
