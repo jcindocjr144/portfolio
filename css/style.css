@@ -8,8 +8,8 @@
 }
 body
 {
- background: rgb(0,0,0);
-background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(233,77,77,1) 17%, rgba(147,41,41,1) 27%, rgba(35,148,82,1) 42%, rgba(215,186,24,1) 54%, rgba(150,25,25,1) 66%, rgba(92,124,21,1) 72%, rgba(0,0,0,1) 100%);
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(51,34,34,1) 17%, rgba(147,41,41,1) 27%, rgba(35,136,148,1) 42%, rgba(37,37,37,1) 54%, rgba(150,25,25,1) 66%, rgba(28,21,124,1) 72%, rgba(0,0,0,1) 100%);
   background-size: cover;
   background-position: center;
   background-size: 100%;
