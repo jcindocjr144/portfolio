@@ -4,8 +4,9 @@ html{
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: url("../images/bg.jpg");
+    background-image: url("../images/bg1.jpg");
     background-repeat: no-repeat;
+    background-size:100%;
     background-color: black;
 }
 .name{
