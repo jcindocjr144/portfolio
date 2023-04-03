@@ -125,6 +125,8 @@ display: none;
 {
   margin-top: 50px;
   margin-left:300px;
+  width:800px;
+  height:500px;
 }
 .dropbtn {
   background: CYAN;
