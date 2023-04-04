@@ -8,10 +8,10 @@
 }
 body
 {
-  background-image:url(images/bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-size: 100%;
+  background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-color: black;
 }
 .menu-bar
 {
