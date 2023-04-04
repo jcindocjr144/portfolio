@@ -172,7 +172,7 @@ html {
 
 #section1 {
   height: 600px;
-  background: linear-gradient(to bottom, #279206 0%, #06925d 50%,#069289 75%, #069235 100%);
+  background-image: url("../images/bg2.jpg");
   text-align: center;
   font-size:30px;
   
@@ -185,7 +185,7 @@ html {
 
 #section2 {
   height: 600px;
-  background: linear-gradient(to bottom, #ff33cc 0%, #3399ff 100%);
+  background-image: url("../images/bg4.jpg");
   border-top:2px solid black;
   text-align: center;
   font-size:30px;
