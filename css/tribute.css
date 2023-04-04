@@ -106,13 +106,13 @@ display: none;
 }
 .desc
 {
-   color:WHITE;
+   color:YELLOW;
   font-size: 50px;
   font-family: monospace;
   margin-top:-400px;
   margin-left: 30px;
   position: absolute;
-  text-shadow: 3px 3px red;
+  text-shadow: 3px 6px BLUE;
 }
 .desc1
 {
