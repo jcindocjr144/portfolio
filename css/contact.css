@@ -171,10 +171,8 @@ html {
 }
 
 #section1 {
-  background-image:url(images/bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-size: 100%;
+  height: 600px;
+  background: linear-gradient(to bottom, #279206 0%, #06925d 50%,#069289 75%, #069235 100%);
   text-align: center;
   font-size:30px;
   
@@ -186,10 +184,8 @@ html {
 }
 
 #section2 {
-  background-image:url(images/bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-size: 100%;
+  height: 600px;
+  background: linear-gradient(to bottom, #ff33cc 0%, #3399ff 100%);
   border-top:2px solid black;
   text-align: center;
   font-size:30px;
