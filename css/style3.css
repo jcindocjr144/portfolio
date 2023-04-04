@@ -172,7 +172,7 @@ html {
 
 #section1 {
   height: 600px;
-   background-image:url(../images/bg4.jpg)
+   background-image:url(images/bg4.jpg)
   text-align: center;
   font-size:30px;
   
@@ -185,7 +185,7 @@ html {
 
 #section2 {
   height: 600px;
-  background-image:url(../images/bg2.jpg)
+  background-image:url(images/bg2.jpg)
   border-top:2px solid black;
   text-align: center;
   font-size:30px;
