@@ -116,12 +116,12 @@ display: none;
 }
 .desc1
 {
-  color:WHITE;
+  color:YELLOW;
   font-size: 20px;
   font-family: monospace;
   margin-top:-300px;
   margin-left: 30px;
-  text-shadow: 1px 1px red;
+  text-shadow: 1px 3px BLUE;
 }
 .video
 {
