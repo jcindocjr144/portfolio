@@ -5,7 +5,7 @@
 }
 body
 {
-background: BLACK;
+background-image:url("../images/tribute.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 }
