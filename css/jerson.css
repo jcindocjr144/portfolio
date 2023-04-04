@@ -5,8 +5,10 @@
 }
 body
 {
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,108,191,1) 0%, rgba(58,105,124,1) 16%, rgba(64,108,120,1) 25%, rgba(0,212,255,1) 51%, rgba(0,212,255,1) 68%);
+background-image:url("../images/bg4.jpg");
+background-repeat: no-repeat;
+background-size:100%;
+background-color: black;
 }
 
 .menu-bar
